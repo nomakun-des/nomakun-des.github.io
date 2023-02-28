@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/png" href="img/icon.png">
         <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <script type="text/javascript" src="script.js"></script>
         <script type="text/javascript">
             function ShowNowYear() {
                 var now = new Date();
@@ -24,7 +25,12 @@
                 <img id="header_img" src="img/banner.png" alt="のーまです。"/>
             </div>
             <div id="header_breadcrumbs" class="header_breadcrumbs">
-                トップページ
+                
+                
+                    トップページ
+                    
+                
+                
             </div>
             <div id="main" class="main">
                 <div id="contents">
@@ -44,7 +50,11 @@
                     </article>
                     <footer>
                         <hr>
-                        トップページ
+                        
+                        
+                            トップページ
+                            
+                        
                         <br>
                         2022-<script type="text/javascript">
                             ShowNowYear();
@@ -54,8 +64,8 @@
                 <div id="menu">
                     <nav>
                         <div class="menu_box">
-                            <h2>リンク</h2>
-                            <div>
+                            <h2 onclick="Click_head('link')">リンク</h2>
+                            <div id="link">
                                 <ul>
                                     <li><a href="https://www.youtube.com/channel/UCvUSI-BrEgCY1nNOwosfifg">
                                             <img src="https://www.youtube.com/s/desktop/451d4225/img/favicon_96x96.png"/>
@@ -77,8 +87,8 @@
                             </div>
                         </div>
                         <div class="menu_box">
-                            <h2>作成ツール</h2>
-                            <div>
+                            <h2 onclick="Click_head('tool')">作成ツール</h2>
+                            <div id="tool">
                                 <ul>
                                     <li><a href="https://nomakun-des.github.io/pokes-calc/">
                                             <img src="https://www.pokemon.co.jp/common/images/favi_official.ico"/>
@@ -92,8 +102,8 @@
                             </div>
                         </div>
                         <div class="menu_box">
-                            <h2>ゲームタイトル</h2>
-                            <div>
+                            <h2 onclick="Click_head('game')">ゲームタイトル</h2>
+                            <div id="game" style="display:none;">
                                 <ul>
                                     <li><a href="https://www.pokemon.co.jp/ex/sv/ja/">
                                             <img src="https://www.pokemon.co.jp/common/images/favi_official.ico"/>
@@ -107,8 +117,8 @@
                             </div>
                         </div>
                         <div class="menu_box">
-                            <h2>よく使ってるサイト</h2>
-                            <div>
+                            <h2 onclick="Click_head('useful')">よく使ってるサイト</h2>
+                            <div id="useful" style="display:none;">
                                 <ul>
                                     <li><a href="https://www.youtube.com/">
                                             <img src="https://www.youtube.com/s/desktop/451d4225/img/favicon_96x96.png"/>
