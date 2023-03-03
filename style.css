@@ -38,12 +38,16 @@ div{
     background-color: #fff;
 }
 
-a {
+a:not(.no-deco) {
     color: #666;
     border-bottom: 1px dashed #666;
     text-decoration: none;
 }
-a:hover{
+a.no-deco{
+    color: #fff;
+    text-decoration: none;
+}
+a:not(.no-deco):hover{
     background-color:#69c;
     color:#fff;
     border-bottom:1px dashed #fff;
