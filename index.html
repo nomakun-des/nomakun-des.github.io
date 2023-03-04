@@ -1,15 +1,19 @@
-
-
-
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%
+    mysite.BCsearcher bc = new mysite.BCsearcher();
+    bc.BCsearcher("index.html");
+%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>のーまのページ</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="loading.css">
         <link rel="icon" type="image/png" href="img/icon.png">
         <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="include.js"></script>
         <script type="text/javascript">
             function ShowNowYear() {
                 var now = new Date();
@@ -24,12 +28,12 @@
                 <img id="header_img" src="img/banner.png" alt="のーまです。"/>
             </div>
             <div id="header_breadcrumbs" class="header_breadcrumbs">
-                
-                
-                    トップページ
-                    
-                
-                
+                <% for (int i = 0; i < bc.getNum(); i++) {%>
+                <% if ((i + 1) < bc.getNum()) {%><a href="<%=bc.getLink(i)%>"><% }%>
+                    <%=bc.getBC(i)%>
+                    <% if ((i + 1) < bc.getNum()) {%></a><% }%>
+                <% if ((i + 1) < bc.getNum()) {%> > <% }%>
+                <% }%>
             </div>
             <div id="main" class="main">
                 <div id="contents">
@@ -46,113 +50,36 @@
                             チャンネル用の記事です。<br>
                             気が向いたらブログみたいにしようかな？<br>
                         </div>
-                        <br>
-                        <h1>おすすめ動画</h1>
-                        <div id="cnt_inside">
-                            <iframe width="500" height="280" src="https://www.youtube.com/embed/1EnJ4p3-W58"></iframe>
-                        </div>
+                        <span id="inc_recommend"></span>
                     </article>
                     <footer>
                         <hr>
-                        
-                        
-                            トップページ
-                            
-                        
-                        <br>
+                        <% for (int i = 0; i < bc.getNum(); i++) {%>
+                        <% if ((i + 1) < bc.getNum()) {%><a href="<%=bc.getLink(i)%>"><% }%>
+                            <%=bc.getBC(i)%>
+                            <% if ((i + 1) < bc.getNum()) {%></a><% }%>
+                        <% if ((i + 1) < bc.getNum()) {%> > <% }%>
+                        <% }%><br>
                         2022-<script type="text/javascript">
                             ShowNowYear();
                         </script> @nomakun_des
                     </footer>
                 </div>
                 <div id="menu">
-                    <nav>
-                                                <div class="menu_box">
-                            <h2 onclick="Click_head('link')">リンク</h2>
-                            <div id="link">
-                                <ul>
-                                    <li><a target="_blank" href="https://www.youtube.com/channel/UCvUSI-BrEgCY1nNOwosfifg">
-                                            <img src="https://www.youtube.com/s/desktop/451d4225/img/favicon_96x96.png"/>
-                                            <span>YouTube(のーまです。【ゲーム実況】)</span>
-                                        </a></li>
-                                    <li><a target="_blank" href="https://twitter.com/nomakun_des">
-                                            <img src="https://abs.twimg.com/favicons/twitter.2.ico"/>
-                                            <span>Twitter(@nomakun_des)</span>
-                                        </a></li>
-                                    <li><a target="_blank" href="https://www.instagram.com/nomakun_des/">
-                                            <img src="https://static.cdninstagram.com/rsrc.php/v3/yt/r/30PrGfR3xhB.png"/>
-                                            <span>Instagram(nomakun_des)</span>
-                                        </a></li>
-                                    <li><a target="_blank" href="https://nomakun-des.fc2.net/">
-                                            <img src="http://static.fc2.com/share/image/favicon.ico"/>
-                                            <span>FC2(のーまのぶろぐです。)</span>
-                                        </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="menu_box">
-                            <h2 onclick="Click_head('tool')">作成ツール</h2>
-                            <div id="tool">
-                                <ul>
-                                    <li><a href="https://nomakun-des.github.io/pokes-calc/">
-                                            <img src="https://www.pokemon.co.jp/common/images/favi_official.ico"/>
-                                            <span>ステータス計算</span>
-                                        </a></li>
-                                    <li><a href="https://nomakun-des.github.io/types-check/">
-                                            <img src="https://www.pokemon.co.jp/common/images/favi_official.ico"/>
-                                            <span>技範囲チェッカー</span>
-                                        </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="menu_box">
-                            <h2 onclick="Click_head('video')"><a class="no-deco" href="video.html">動画用記事</a></h2>
-                            <div id="video" style="display:none;">
-                                <ul>
-                                    <li><a href="23_03-05.html">
-                                            <img src="img/poke_210.png"/>
-                                            <span>バレパンドクロッグ <font size="-2">(2023-03-05)</font></span>
-                                        </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="menu_box">
-                            <h2 onclick="Click_head('game')">ゲームタイトル</h2>
-                            <div id="game" style="display:none;">
-                                <ul>
-                                    <li><a target="_blank" href="https://www.pokemon.co.jp/ex/sv/ja/">
-                                            <img src="https://www.pokemon.co.jp/common/images/favi_official.ico"/>
-                                            <span>ポケットモンスターSV</span>
-                                        </a></li>
-                                    <li><a target="_blank" href="https://www.nintendo.co.jp/switch/av5ja/index.html">
-                                            <img src="https://pbs.twimg.com/profile_images/1362173855100334082/sg2p-G27_400x400.jpg"/>
-                                            <span>スプラトゥーン3</span>
-                                        </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="menu_box">
-                            <h2 onclick="Click_head('useful')">よく使ってるサイト</h2>
-                            <div id="useful" style="display:none;">
-                                <ul>
-                                    <li><a target="_blank" href="https://www.youtube.com/">
-                                            <img src="https://www.youtube.com/s/desktop/451d4225/img/favicon_96x96.png"/>
-                                            <span>YouTube</span>
-                                        </a></li>
-                                    <li><a target="_blank" href="https://yakkun.com/">
-                                            <img src="https://img.yakkun.com/favicon-32x32.png"/>
-                                            <span>ポケモン徹底攻略</span>
-                                        </a></li>
-                                    <li><a target="_blank" href="https://sv.pokesol.com/calc">
-                                            <img src="https://sv.pokesol.com/favicon-32x32.png"/>
-                                            <span>ダメージ計算</span>
-                                        </a></li>
-                                </ul>
-                            </div>
-                        </div>
+                    <nav id="inc_nav">
                     </nav>
                     <a class="twitter-timeline" data-height="400" href="https://twitter.com/nomakun_des?ref_src=twsrc%5Etfw">Tweets by nomakun_des</a>
                 </div>
+            </div>
+        </div>
+                    
+        <div id="loader">
+            <div class="sk-chase">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
             </div>
         </div>
     </body>
