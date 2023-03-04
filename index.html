@@ -1,8 +1,6 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%
-    mysite.BCsearcher bc = new mysite.BCsearcher();
-    bc.BCsearcher("index.html");
-%>
+
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -28,12 +26,12 @@
                 <img id="header_img" src="img/banner.png" alt="のーまです。"/>
             </div>
             <div id="header_breadcrumbs" class="header_breadcrumbs">
-                <% for (int i = 0; i < bc.getNum(); i++) {%>
-                <% if ((i + 1) < bc.getNum()) {%><a href="<%=bc.getLink(i)%>"><% }%>
-                    <%=bc.getBC(i)%>
-                    <% if ((i + 1) < bc.getNum()) {%></a><% }%>
-                <% if ((i + 1) < bc.getNum()) {%> > <% }%>
-                <% }%>
+                
+                
+                    トップページ
+                    
+                
+                
             </div>
             <div id="main" class="main">
                 <div id="contents">
@@ -54,12 +52,12 @@
                     </article>
                     <footer>
                         <hr>
-                        <% for (int i = 0; i < bc.getNum(); i++) {%>
-                        <% if ((i + 1) < bc.getNum()) {%><a href="<%=bc.getLink(i)%>"><% }%>
-                            <%=bc.getBC(i)%>
-                            <% if ((i + 1) < bc.getNum()) {%></a><% }%>
-                        <% if ((i + 1) < bc.getNum()) {%> > <% }%>
-                        <% }%><br>
+                        
+                        
+                            トップページ
+                            
+                        
+                        <br>
                         2022-<script type="text/javascript">
                             ShowNowYear();
                         </script> @nomakun_des
