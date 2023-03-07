@@ -1,13 +1,7 @@
-var video_list = [  //year,month,day,name,img_no
+var video_list = [//year,month,day,name,img_no
+    ["23", "03", "08", "雨奇晴好ウネルミナモ", 622],
     ["23", "03", "05", "バレパンドクロッグ", 210]
 ];
-
-window.onload = function () {
-    Nav();
-
-    const loader = document.getElementById('loader');
-    loader.classList.add('loaded');
-};
 
 function Nav() {
     video_all = "";
@@ -101,12 +95,25 @@ function Nav() {
             "    </ul>" +
             "</div>" +
             "</div>";
-    recommend_all = "<br><br>"+
+    recommend_all = "<br><br>" +
             "<h1>おすすめ動画</h1>" +
             "    <div id='cnt_inside'>" +
             "        <iframe width='500' height='280' src='https://www.youtube.com/embed/" + recommend_url + "'></iframe>" +
             "    </div>";
+    comment_all = "<marquee scrollamount='5' style='--height:10px;'>こんにちは</marquee>" +
+            "<marquee scrollamount='6' style='--height:100px;'>www</marquee>" +
+            "<marquee scrollamount='8' style='--height:50px;'>初見です</marquee>" +
+            "<marquee scrollamount='10' style='--height:30px;'>これが言ってたサイト？</marquee>" +
+            "<marquee scrollamount='11' style='--height:260px;'>www</marquee>" +
+            "<marquee scrollamount='12' style='--height:120px;'>こんにちは</marquee>" +
+            "<marquee scrollamount='13' style='--height:10px;'>www</marquee>" +
+            "<marquee scrollamount='15' style='--height:0px;'>www</marquee>" +
+            "<marquee scrollamount='16' style='--height:150px;' id='now_comment'>なう(2003/2/23 20：15：43)</marquee>" +
+            "<marquee scrollamount='18' style='--height:200px;'>こんにちは</marquee>" +
+            "<marquee scrollamount='19' style='--height:180px;'>www</marquee>" +
+            "<marquee scrollamount='20' style='--height:220px;'>わこつ</marquee>";
 
     document.getElementById("inc_nav").innerHTML = nav_all;
     document.getElementById("inc_recommend").innerHTML = recommend_all;
+    document.getElementById("comment").innerHTML = comment_all;
 }
