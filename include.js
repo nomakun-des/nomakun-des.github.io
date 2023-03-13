@@ -6,7 +6,7 @@ var video_list = [//year,month,day,name,img_no
 
 function Nav() {
     video_all = "";
-    recommend_url = "1EnJ4p3-W58";
+    recommend_url = "mthm8IwKrto";
 
     for (let i = 0; i < video_list.length; i++) {
         video_all +=
