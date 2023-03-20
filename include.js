@@ -32,9 +32,9 @@ function Nav() {
             "                <img src='https://static.cdninstagram.com/rsrc.php/v3/yt/r/30PrGfR3xhB.png'/>" +
             "                <span>Instagram(nomakun_des)</span>" +
             "            </a></li>" +
-            "        <li><a target='_blank' href='https://nomakun-des.fc2.net/'>" +
-            "                <img src='http://static.fc2.com/share/image/favicon.ico'/>" +
-            "                <span>FC2(のーまのぶろぐです。)</span>" +
+            "        <li><a target='_blank' href='https://marshmallow-qa.com/nomakun_des?utm_medium=twitter&utm_source=promotion'>" +
+            "                <img src='https://marshmallow-qa.com/assets/favicon/favicon-32x32-24d3ddfcf45314271d2802733ad4c2a950e4e43990d6ed0b981ddc8b251cda2c.png'/>" +
+            "                <span>マシュマロ(@nomakun_des)</span>" +
             "            </a></li>" +
             "    </ul>" +
             "</div>" +
