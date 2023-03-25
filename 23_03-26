@@ -1,0 +1,165 @@
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>フォレトス×ヤミラミ | のーまのページ</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="loading.css">
+        <link rel="icon" type="image/png" href="img/icon.png">
+        <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="include.js"></script>
+        <script type="text/javascript">
+            function ShowNowYear() {
+                var now = new Date();
+                var year = now.getFullYear();
+                document.write(year);
+            }
+        </script>
+    </head>
+    <body>
+        <div id="back" class="back">
+            <div id="header" id="header">
+                <img id="header_img" src="img/banner.png" alt="のーまです。"/>
+            </div>
+            <div id="header_breadcrumbs" class="header_breadcrumbs">
+                
+                <a href="index.html">
+                    トップページ
+                    </a>
+                 > 
+                
+                <a href="video.html">
+                    動画用記事
+                    </a>
+                 > 
+                
+                
+                    フォレトス×ヤミラミ
+                    
+                
+                
+            </div>
+            <div id="main" class="main">
+                <div id="contents">
+                    <article>
+                        <h1>動画</h1>
+                        <div id="cnt_inside">
+                            <iframe width="500" height="280" src="https://www.youtube.com/embed/x8xOvsqzdcI"></iframe>
+                        </div>
+                        <h1>パーティ画像(動画用)</h1>
+                        <div id="cnt_inside">
+                            <img width="500" src="img/p230326_01.jpg">
+                        </div>
+                        <h1>努力値</h1>
+                        <div id="cnt_inside">
+                            ハピナス　@　おんみつマント<br>
+                            しぜんかいふく　/　おだやか<br>
+                            331(4)-x-62(252)-127(252)-170-75<br>
+                            <br>
+                            ドドゲザン　@　とつげきチョッキ<br>
+                            そうだいしょう　/　いじっぱり<br>
+                            207(252)-171(4)-172(252)-x-105-70<br>
+                            <br>
+                            フォレトス　@　ゴツゴツメット<br>
+                            ぼうじん　/　のんき<br>
+                            182(252)-x-211(252)-80-81(4)-54<br>
+                            <br>
+                            ヤミラミ　@　たべのこし<br>
+                            いたずらごころ　/　ずぶとい<br>
+                            145(156)-x-139(252)-x-98(100)-70<br>
+                            <br>
+                            ミミッキュ　@　いのちのたま<br>
+                            ばけのかわ　/　いじっぱり<br>
+                            131(4)-156(252)-100-x-125-148(252)<br>
+                            <br>
+                            サザンドラ　@　こだわりスカーフ<br>
+                            ふゆう　/　おくびょう<br>
+                            167-112-110-177(252)-111(4)-165(252)<br>
+                        </div>
+                        <h1>パーティ画像(本命)</h1>
+                        <div id="cnt_inside">
+                            <img width="500" src="img/p230326_02.jpg">
+                        </div>
+                        <h1>詳細</h1>
+                        <div id="cnt_inside">
+                            イルカマン　@　こだわりハチマキ<br>
+                            マイティチェンジ　/　ようき<br>
+                            175-122(252)-92-x-83(4)-167(252)<br>
+                            <br>
+                            ハピナス　@　おんみつマント<br>
+                            しぜんかいふく　/　おだやか<br>
+                            331(4)-x-62(252)-127(252)-170-75<br>
+                            <br>
+                            テツノカイナ　@　とつげきチョッキ<br>
+                            クォークチャージ　/　いじっぱり<br>
+                            239(76)-198(156)-157(228)-x-93(36)-72(12)<br>
+                            <br>
+                            ヤミラミ　@　たべのこし<br>
+                            いたずらごころ　/　ずぶとい<br>
+                            145(156)-x-139(252)-x-98(100)-70<br>
+                            <br>
+                            フォレトス　@　ゴツゴツメット<br>
+                            ぼうじん　/　のんき<br>
+                            182(252)-x-211(252)-80-81(4)-54<br>
+                            <br>
+                            サザンドラ　@　こだわりスカーフ<br>
+                            ふゆう　/　おくびょう<br>
+                            167-112-110-177(252)-111(4)-165(252)<br>
+                            <br>
+                            基本は「フォレトス、ヤミラミ、アタッカー」か「フォレトス、ハピナス、アタッカー」を選出して毒ダメを稼ぎつつアタッカーで全抜き。<br>
+                            炎タイプが多かったり選出される可能性が高い場合はイルカマン軸でクッションを片方使う感じになります。(特殊炎はハピナス後出しで行けるので問題ない。)<br>
+                            <br>
+                            選出をミスるとドドゲザン、ソウブレイズ、ヘイラッシャがそこそこ重いので意識しておくといいです。<br>
+                            キョジオーンはヤミラミで詰ませられるのでヤミラミ必須<br>
+                        </div>
+                        <span id="inc_recommend"></span>
+                    </article>
+                    <footer>
+                        <hr>
+                        
+                        <a href="index.html">
+                            トップページ
+                            </a>
+                         > 
+                        
+                        <a href="video.html">
+                            動画用記事
+                            </a>
+                         > 
+                        
+                        
+                            フォレトス×ヤミラミ
+                            
+                        
+                        <br>
+                        2022-<script type="text/javascript">
+                            ShowNowYear();
+                        </script> @nomakun_des
+                    </footer>
+                </div>
+                <div id="menu">
+                    <nav id="inc_nav">
+                    </nav>
+                    <a class="twitter-timeline" data-height="400" href="https://twitter.com/nomakun_des?ref_src=twsrc%5Etfw">Tweets by nomakun_des</a>
+                </div>
+            </div>
+        </div>
+                        
+        <span id="comment" style="display: none;">
+        </span>
+                    
+        <div id="loader">
+            <div class="sk-chase">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+            </div>
+        </div>
+    </body>
+</html>
