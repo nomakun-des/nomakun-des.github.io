@@ -44,12 +44,16 @@ function Nav() {
             "<div id='tool'>" +
             "    <ul>" +
             "        <li><a href='https://nomakun-des.github.io/pokes-calc/'>" +
-            "                <img src='https://www.google.com/s2/favicons?domain=https://nomakun-des.github.io/pokes-calc/'/>" +
+            "                <img src='img/favi_calc.png'/>" +
             "                <span>ステータス計算</span>" +
             "            </a></li>" +
             "        <li><a href='https://nomakun-des.github.io/types-check/'>" +
-            "                <img src='https://www.google.com/s2/favicons?domain=https://nomakun-des.github.io/types-check/'/>" +
+            "                <img src='img/favi_move.png'/>" +
             "                <span>技範囲チェッカー</span>" +
+            "            </a></li>" +
+            "        <li><a href='https://nomakun-des.github.io/resist-check/'>" +
+            "                <img src='img/favi_tera.png'/>" +
+            "                <span>テラスタイプ算出</span>" +
             "            </a></li>" +
             "    </ul>" +
             "</div>" +
