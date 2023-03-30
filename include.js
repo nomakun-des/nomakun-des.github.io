@@ -44,11 +44,11 @@ function Nav() {
             "<div id='tool'>" +
             "    <ul>" +
             "        <li><a href='https://nomakun-des.github.io/pokes-calc/'>" +
-            "                <img src='https://www.pokemon.co.jp/common/images/favi_official.ico'/>" +
+            "                <img src='https://www.google.com/s2/favicons?domain=https://nomakun-des.github.io/pokes-calc/'/>" +
             "                <span>ステータス計算</span>" +
             "            </a></li>" +
             "        <li><a href='https://nomakun-des.github.io/types-check/'>" +
-            "                <img src='https://www.pokemon.co.jp/common/images/favi_official.ico'/>" +
+            "                <img src='https://www.google.com/s2/favicons?domain=https://nomakun-des.github.io/types-check/'/>" +
             "                <span>技範囲チェッカー</span>" +
             "            </a></li>" +
             "    </ul>" +
