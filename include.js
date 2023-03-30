@@ -52,7 +52,7 @@ function Nav() {
             "                <span>技範囲チェッカー</span>" +
             "            </a></li>" +
             "        <li><a href='https://nomakun-des.github.io/resist-check/'>" +
-            "                <img src='img/favi_tera.png'/>" +
+            "                <img src='img/favi_resi.png'/>" +
             "                <span>テラスタイプ算出</span>" +
             "            </a></li>" +
             "    </ul>" +
