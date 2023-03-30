@@ -1,7 +1,7 @@
 var video_list = [//year,month,day,name,img_no
-    ["23", "03", "26", "フォレトス×ヤミラミ", "109"],
-    ["23", "03", "19", "はんすうケンタロス", "060"],
-    ["23", "03", "12", "メロン色ヒメグマ", "117"]
+    ["23", "03", "26", "フォレトス×ヤミラミ", "x8xOvsqzdcI"],
+    ["23", "03", "19", "はんすうケンタロス", "Uy8q1G66LQo"],
+    ["23", "03", "12", "メロン色ヒメグマ", "Cj0E1ipU9HY"]
 ];
 
 function Nav() {
@@ -11,7 +11,7 @@ function Nav() {
     for (let i = 0; i < video_list.length; i++) {
         video_all +=
                 "<li><a href='" + video_list[i][0] + "_" + video_list[i][1] + "-" + video_list[i][2] + ".html'>" +
-                "    <img src='img/poke_" + video_list[i][4] + ".png'/>" +
+                "    <img src='http://img.youtube.com/vi/" + video_list[i][4] + "/mqdefault.jpg'/>" +
                 "    <span>" + video_list[i][3] + " <font size='-2'>(20" + video_list[i][0] + "-" + video_list[i][1] + "-" + video_list[i][2] + ")</font></span>" +
                 "</a></li>";
     }
