@@ -103,7 +103,7 @@ hr{
     background: #fff;
     display: inline-block;
 }
-#cnt_inside{
+.cnt_inside{
     color: #444;
     padding: 0 20px 10px;
 }
