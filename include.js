@@ -1,14 +1,16 @@
 var video_list = [//year,month,day,name,img_no
-    ["23", "03", "26", "フォレトス×ヤミラミ", "x8xOvsqzdcI"],
+    ["23", "03", "05", "バレパンドクロッグ", "mthm8IwKrto"],
+    ["23", "03", "08", "雨奇晴好ウネルミナモ", "7TbY9kg6mcQ"],
+    ["23", "03", "12", "メロン色ヒメグマ", "Cj0E1ipU9HY"],
     ["23", "03", "19", "はんすうケンタロス", "Uy8q1G66LQo"],
-    ["23", "03", "12", "メロン色ヒメグマ", "Cj0E1ipU9HY"]
+    ["23", "03", "26", "フォレトス×ヤミラミ", "x8xOvsqzdcI"]
 ];
 
 function Nav() {
     video_all = "";
     recommend_url = "mthm8IwKrto";
 
-    for (let i = 0; i < video_list.length; i++) {
+    for (let i = video_list.length-1; i > video_list.length-4; i--) {
         video_all +=
                 "<li><a href='" + video_list[i][0] + "_" + video_list[i][1] + "-" + video_list[i][2] + ".html'>" +
                 "    <img src='http://img.youtube.com/vi/" + video_list[i][4] + "/mqdefault.jpg'/>" +
