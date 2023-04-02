@@ -3,7 +3,8 @@ var video_list = [//year,month,day,name,img_no
     ["23", "03", "08", "雨奇晴好ウネルミナモ", "7TbY9kg6mcQ"],
     ["23", "03", "12", "メロン色ヒメグマ", "Cj0E1ipU9HY"],
     ["23", "03", "19", "はんすうケンタロス", "Uy8q1G66LQo"],
-    ["23", "03", "26", "フォレトス×ヤミラミ", "x8xOvsqzdcI"]
+    ["23", "03", "26", "フォレトス×ヤミラミ", "x8xOvsqzdcI"],
+    ["23", "04", "02", "災いの玉イーユイ", "2FrBXFT4-rg"]
 ];
 
 function Nav() {
@@ -104,7 +105,7 @@ function Nav() {
             "</div>";
     recommend_all = "<br><br>" +
             "<h1>おすすめ動画</h1>" +
-            "    <div id='cnt_inside'>" +
+            "    <div class='cnt_inside'>" +
             "        <iframe width='500' height='280' src='https://www.youtube.com/embed/" + recommend_url + "'></iframe>" +
             "    </div>";
     comment_all = "<marquee scrollamount='5' style='--height:10px;'>こんにちは</marquee>" +
