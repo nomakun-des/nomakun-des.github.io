@@ -31,7 +31,7 @@ function Nav() {
             "                <span>マシュマロ(@nomakun_des)</span>" +
             "            </a></li>" +
             "        <li><a target='_blank' href='https://discord.gg/cgyDfTqWcH'>" +
-            "                <img src='https://discord.com/assets/847541504914fd33810e70a0ea73177e.ico'/>" +
+            "                <img src='https://play-lh.googleusercontent.com/McVkTazCaveLwqoDuX_E7ayTgdK4DPbrKCGcPSIZT4b783j6HJvJYu0uxQAuzCw7BCs'/>" +
             "                <span>のーまのでぃすこです。</span>" +
             "            </a></li>" +
             "    </ul>" +
