@@ -30,6 +30,10 @@ function Nav() {
             "                <img src='https://marshmallow-qa.com/assets/favicon/favicon-32x32-24d3ddfcf45314271d2802733ad4c2a950e4e43990d6ed0b981ddc8b251cda2c.png'/>" +
             "                <span>マシュマロ(@nomakun_des)</span>" +
             "            </a></li>" +
+            "        <li><a target='_blank' href='https://discord.gg/cgyDfTqWcH'>" +
+            "                <img src='https://discord.com/assets/847541504914fd33810e70a0ea73177e.ico'/>" +
+            "                <span>のーまのでぃすこです。</span>" +
+            "            </a></li>" +
             "    </ul>" +
             "</div>" +
             "</div>" +
