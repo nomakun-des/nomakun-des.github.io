@@ -33,6 +33,11 @@ h1{
     padding: 0 10px;
 }
 
+h2{
+    margin: 8px 0px;
+    font-size: 15px;
+}
+
 div:not(.sk-chase-dot):not(.sk-chase){
     margin: 0;
     background-color: #fff;
@@ -225,4 +230,13 @@ marquee{
     left: 15px;
     text-align:center;
     line-height: 70px;
+}
+
+.pokeicon{
+    width:40px;
+    vertical-align: bottom;
+}
+
+.pokedeta{
+    margin-top: 25px;
 }
